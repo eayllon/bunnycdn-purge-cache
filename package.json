@@ -1,0 +1,25 @@
+{
+  "name": "bunnycdn-purge-cache",
+  "version": "1.0.0",
+  "description": "Simple GitHub action that purges the CDN cache of a specific pullzone via API access",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eayllon/bunnycdn-purge-cache.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eayllon/bunnycdn-purge-cache/issues"
+  },
+  "homepage": "https://github.com/eayllon/bunnycdn-purge-cache#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "node-fetch": "^2.6.9"
+  }
+}

@@ -1,0 +1,12 @@
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  accessKey:
+    description: 'Bunny CDN API key'
+    required: true
+  zoneID:
+    description: 'Bunny CDN Pull Zone ID'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
